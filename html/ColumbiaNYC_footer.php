@@ -109,12 +109,36 @@
 					<a target="_blank" href="https://systemsbiology.columbia.edu/">
         		<img class="sponsors" src="http://2017.igem.org/wiki/images/e/ee/T--ColumbiaNYC--cusystemsbiology.jpg">
     			</a>
+					<a target="_blank" href="https://engineering.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/8/84/T--ColumbiaNYC--columbiauniversity-seas.jpg">
+					</a>
+					<a target="_blank" href="http://www.cumc.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/c/cd/T--ColumbiaNYC--columbiauniversity-cumc.jpg">
+					</a>
+					<a target="_blank" href="http://pathology.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/8/85/T--ColumbiaNYC--columbiauniversity-path.jpg">
+					</a>
+					<a target="_blank" href="https://www.cs.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/a/aa/T--ColumbiaNYC--columbiauniversity-cs.jpg">
+					</a>
+					<a target="_blank" href="http://biology.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/9/99/T--ColumbiaNYC--columbiauniversity-biological-sciences.jpg">
+					</a>
+					<a target="_blank" href="http://www.ee.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/2/2c/T--ColumbiaNYC--columbiauniversity-ee.jpg">
+					</a>
+					<a target="_blank" href="https://bme.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/5/5f/T--ColumbiaNYC--columbiauniversity-bme.jpg">
+					</a>
+					<a target="_blank" href="http://cheme.columbia.edu/">
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/7/70/T--ColumbiaNYC--columbiauniversity-white-ce.jpg">
+					</a>
 					<a target="_blank" href="https://www.idtdna.com/site">
-        		<img class="sponsors" src="http://2017.igem.org/wiki/images/c/c3/T--ColumbiaNYC--idt.jpg">
-    			</a>
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/c/c3/T--ColumbiaNYC--idt.jpg">
+					</a>
 					<a target="_blank" href="http://www.geneious.com/">
-        		<img class="sponsors" src="http://2017.igem.org/wiki/images/6/66/T--ColumbiaNYC--geneious.jpg">
-    			</a>
+						<img class="sponsors" src="http://2017.igem.org/wiki/images/6/66/T--ColumbiaNYC--geneious.jpg">
+					</a>
 				</p>
 
 			</div>
