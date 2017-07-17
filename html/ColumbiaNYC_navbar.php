@@ -86,7 +86,8 @@
 									<li class="dropdown">
 										<a class="dropdown-toggle" href="http://2017.igem.org/Team:ColumbiaNYC/Engagement">HUMAN PRACTICES<span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="http://2017.igem.org/Team:ColumbiaNYC/Engagement">PUBLIC &amp; PROFESSIONAL OUTREACH</a></li>
+											<li><a href="http://2017.igem.org/Team:ColumbiaNYC/Engagement">ENGAGEMENT</a></li>
+											<li><a href="http://2017.igem.org/Team:ColumbiaNYC/Entrepreneurship">ENTREPRENEURSHIP</a></li>
 											<li><a href="http://2017.igem.org/Team:ColumbiaNYC/Collaborations">COLLABORATIONS</a></li>
 											<li><a href="http://2017.igem.org/Team:ColumbiaNYC/Medals">MEDAL CRITERION</a></li>
 										</ul>
