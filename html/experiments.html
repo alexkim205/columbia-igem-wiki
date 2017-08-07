@@ -2,6 +2,12 @@
 
 <html>
 
+<head>
+  <style>
+    .tab { margin-left: 40px; }
+  </style>
+</head>
+
 <body id="page-top">
 
   <!-- Full Width Jumbotron Header -->
@@ -14,7 +20,88 @@
 
   <!-- Page Content -->
   <div class="container">
-
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h3 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Bacteria Chemical Transformation
+            </a>
+          </h3>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <ol>
+              <li>Take competent cells out of -80°C and thaw on ice (approximately 20-30 mins).</li>
+              <li>Remove agar plates(containing chloramphenicol) from storage at 4°C and let warm up to
+              room temperature and then (optional) incubate in 37°C incubator. Alternatively these can
+              be made, by adding roughly 15 mL of LB per plate with about 1 microliter per mL of 25
+              microgram/mL working stock of chloramphenicol.</li>
+              <li>Mix 1 - 5 μl of DNA (usually 10 pg - 100 ng) into 50 μL of competent cells in a
+              microcentrifuge or falcon tube. GENTLY mix by flicking the bottom of the tube with your
+              finger a few times.</li>
+              <p class="tab"><b>Note:</b>​​ Transformation efficiencies will be approximately 10-fold lower for ligation of
+              inserts to vectors than for an intact control plasmid.</p>
+              <li>Incubate the competent cell/DNA mixture on ice for 20-30 mins.</li>
+              <li>Heat shock each transformation tube by placing the bottom 1/2 to 2/3 of the tube into a
+              42°C water bath for 30-60 secs (45 secs is usually ideal, but this varies depending on
+              the competent cells you are using). In our case, we used
+              a dry bath for 45 seconds which proved to be just as
+              effective.</li>
+              <li>Put the tubes back on ice for 2 min.</li>
+              <li>Add 500 μl LB or SOC media (without antibiotic) to the
+              bacteria and grow in 37°C shaking incubator for 45 min.</li>
+              <p class="tab"><b>Note:</b>​ This outgrowth step allows the bacteria time to
+              generate the antibiotic resistance proteins encoded
+              on the plasmid backbone so that they will be able to
+              grow once plated on the antibiotic containing agar
+              plate. This step is not critical for Ampicillin resistance
+              but is much more important for other antibiotic
+              resistances.</p>
+              <li>Plate 100 microliters of the transformation onto a 10 cm
+              LB agar platecontaining the chloramphenicol. The
+              bacteria can be spread via beads, quad streaking, or a spreader. Any method works.</li>
+              <p class="tab"><b>Note:</b>​ We recommend that you plate 50 μL on one plate and the rest on a second
+              plate. This gives the best chance of getting single colonies, while allowing you to
+              recover all transformants.</p>
+              <p class="tab"><b>Note:</b>​ If the culture volume is too big, gently collect the cells by centrifugation and
+              resuspend in a smaller volume of LB so that there isn't too much liquid media on the
+              agar plates. If the agar plate doesn't dry adequately before the cells begin dividing,
+              the bacteria diffuse through the liquid and won't grow in colonies.</p>
+              <li>Incubate plates at 37°C overnight.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h3 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Attribution #2
+            </a>
+          </h3>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h3 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Attribution #3
+            </a>
+          </h3>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>

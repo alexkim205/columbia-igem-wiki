@@ -10,6 +10,7 @@
   <link href="http://2017.igem.org/Team:ColumbiaNYC/Resources/CSS:animate_min?action=raw&ctype=text/css" rel="stylesheet">
   <link href="http://2017.igem.org/Team:ColumbiaNYC/Resources/CSS:bootstrap-dropdownhover_min?action=raw&ctype=text/css" rel="stylesheet">
 	<script src="http://2017.igem.org/Team:ColumbiaNYC/Resources/JS:bootstrap-dropdownhover_min?action=raw&ctype=text/javascript"></script>
+
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<!-- Custom CSS-->

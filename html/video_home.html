@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href="/Users/alex/Dropbox/Columbia University/Freshman/Summer/iGEM Website/css/videopage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-md">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Container</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleContainer">
+        <ul class="navbar-nav mr-auto">
+          <li><p class="navbar-btn"><a href="#" class="btn btn-default">Join</a></p></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="navbar-form" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
+        <li><p class="navbar-btn"><a href="#" class="btn btn-default">Upload</a></p></li>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="overlay-container">
+            <video autoplay="autoplay" muted="muted" preload="auto" loop>
+              <source src="http://2017.igem.org/wiki/images/7/79/T--ColumbiaNYC--videoplaceholder.mp4" type="video/webm"/>
+            </video>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="overlay-container">
+            <video autoplay="autoplay" muted="muted" preload="auto" loop>
+              <source src="http://2017.igem.org/wiki/images/7/79/T--ColumbiaNYC--videoplaceholder.mp4" type="video/webm"/>
+            </video>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="overlay-container">
+            <video autoplay="autoplay" muted="muted" preload="auto" loop>
+              <source src="http://2017.igem.org/wiki/images/7/79/T--ColumbiaNYC--videoplaceholder.mp4" type="video/webm"/>
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

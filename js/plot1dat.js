@@ -22,6 +22,12 @@ Highcharts.chart('plot1', {
     }
   },
 
+  credits: {
+      enabled: false
+  },
+
+  exporting: { enabled: false },
+
   legend: {
     enabled: false
   },
@@ -85,6 +91,12 @@ Highcharts.chart('plot2', {
   legend: {
     enabled: false
   },
+
+  credits: {
+      enabled: false
+  },
+
+  exporting: { enabled: false },
 
   tooltip: {
     headerFormat: '<b>{series.name}</b><br/>',

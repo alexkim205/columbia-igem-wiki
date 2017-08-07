@@ -1,0 +1,38 @@
+body {
+    margin-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/*Video page stuff*/
+
+.carousel-control.left, .carousel-control.right {
+  background-image:none !important;
+  filter:none !important;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.overlay-container {
+  position:relative;
+  height:400px;
+}
+
+.overlay-container video {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  display: block;
+}
+
+.overlay-container video:hover {
+  filter: blur(10px);
+  -moz-transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
