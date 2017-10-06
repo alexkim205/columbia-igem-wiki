@@ -1,0 +1,124 @@
+{{ColumbiaNYC_navbar}}
+
+{{#tag:html|
+
+  <head>
+    <!-- FOR CHARTS -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <style>
+    #plot1 {
+      min-width: 310px;
+      max-width: 800px;
+      height: 400px;
+      margin: 0 auto
+    }
+    #plot2 {
+      min-width: 310px;
+      max-width: 800px;
+      height: 400px;
+      margin: 0 auto
+    }
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Full Width Jumbotron Header -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Interlab</h1>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>OD600 Reference Point</h3>
+          {{Data/csv/OD600_reference_point}}
+        </div>
+        <div class="col-md-6 col-xs-12 text-center">
+          <h3>Plate Pattern</h3>
+          {{Data/csv/Plate_Pattern}}
+        </div>
+
+      </hr>
+
+      <div class="col-md-12 col-xs-12 text-center">
+        <h2> Fluorescence Standard Curves </h2>
+      </div>
+      <div class="col-md-12 col-xs-12 text-center">
+        <h3>uM Fluorescein</h3>
+        {{Data/csv/uM_Fluorescein}}
+      </div>
+      <div class="col-md-12 col-xs-12 text-center">
+        <h3>uM Fluorescein/a.u.</h3>
+        {{Data/csv/uM_Fluorescein_a.u.}}
+      </div>
+      <div id="plot1" class="col-md-6 col-xs-12 text-center"></div>
+      <div id="plot2" class="col-md-6 col-xs-12 text-center"></div>
+
+
+    </hr>
+
+    <div class="col-md-12 col-xs-12 text-center">
+      <h2> Abs600 Raw Readings </h2>
+    </div>
+    <div class="col-md-6 col-xs-12 text-center">
+      <h3>Hour 0</h3>
+      {{Data/csv/Abs600_00}}
+    </div>
+    <div class="col-md-6 col-xs-12 text-center">
+      <h3>Hour 2</h3>
+      {{Data/csv/Abs600_02}}
+    </div>
+    <div class="col-md-6 col-xs-12 text-center">
+      <h3>Hour 4</h3>
+      {{Data/csv/Abs600_04}}
+    </div>
+    <div class="col-md-6 col-xs-12 text-center">
+      <h3>Hour 6</h3>
+      {{Data/csv/Abs600_06}}
+    </div>
+
+  </hr>
+
+  <div class="col-md-12 col-xs-12 text-center">
+    <h2> Fluorescence Raw Readings </h2>
+  </div>
+  <div class="col-md-6 col-xs-12 text-center">
+    <h3>Hour 0</h3>
+    {{Data/csv/Flu_00}}
+  </div>
+  <div class="col-md-6 col-xs-12 text-center">
+    <h3>Hour 2</h3>
+    {{Data/csv/Flu_02}}
+  </div>
+  <div class="col-md-6 col-xs-12 text-center">
+    <h3>Hour 4</h3>
+    {{Data/csv/Flu_04}}
+  </div>
+  <div class="col-md-6 col-xs-12 text-center">
+    <h3>Hour 6</h3>
+    {{Data/csv/Flu_06}}
+  </div>
+
+</hr>
+
+
+</div>
+<!-- div row -->
+</div>
+<!-- div container -->
+
+<script type="text/javascript" src="http://2017.igem.org/Team:ColumbiaNYC/Resources/JS:plot1dat?action=raw&ctype=text/javascript"></script>
+
+</body>
+
+}}
+
+{{ColumbiaNYC_footer}}

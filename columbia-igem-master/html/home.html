@@ -1,0 +1,126 @@
+{{ColumbiaNYC_navbar}}
+
+<html>
+
+<style>
+.headline {
+opacity: 0.84;
+}
+</style>
+
+<body id="page-top">
+
+  <!-- Full Width Image Header -->
+  <header class="header-image">
+      <div class="headline">
+          <div class="container">
+              <h1>SilenshR</h1>
+              <h3>Bacteria-Mediated Oncogene Silencing as Living Cancer Therapeutic</h3>
+          </div>
+      </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+      <hr class="featurette-divider">
+
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">In 2010, cancer costs exceeded <strong> $2.5 trillion </strong> </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_fjords_wide.jpg" style="width:100%">
+  <div class="text">Our team proposes to use shRNA to knockdown the expression of aberrant oncogenes and consequently treat cancer. Taken in the form of a probiotic oral treatment, SilenshR is more accessible than most contemporary treatments such as chemotherapy and radiation therapy.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">With the appropriate shRNA sequence, this products lends itself to many various applications. Its great versatility allows it to be a useful therapeutic avenue in the field of medicine. </div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+
+
+      <!-- First Featurette -->
+      <div class="featurette" id="about">
+          <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+          <h2 class="featurette-heading">The Advantages to a 
+              <span class="text-muted">Synthetic Biology Approach</span>
+          </h2>
+          <p class="lead">A cornerstone in synthetic biology is the connection of distinct biological functions to create useful system level behavior. We can take advantage of how bacteria naturally localize in tumors while failing to survive in healthy tissue in the body to use bacteria as a cancer-specific delivery mechanism. Also, bacteria can mass produce products, invade cells, and release the products directly into the cells. This allows easily-degraded compounds to be effective delivered into cancer cells. It also prevents these compounds from affecting healthy cells. The combination of these mechanisms creates a powerful, cancer-specific circuit for gene therapy.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Second Featurette -->
+      <div class="featurette" id="services">
+          <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+          <h2 class="featurette-heading">Expanding the Possibilities of 
+              <span class="text-muted">Gene Therapy</span>
+          </h2>
+          <p class="lead">Anticipating the applications of synthetic biology to healthcare, Columbia iGEM 2017 is devising a therapeutic approach to modulate mammalian gene expression at the post-transcriptional level. Recombinant E. coli with the capacity to invade mammalian cells will deliver an shRNA payload against an aberrantly expressed gene, for example an oncogene in cancer or proinflammatory cytokine in inflammation, to the host cytoplasm. This shRNA payload will then inhibit protein function, which can combat mutations that confer resistance to traditional therapies, as with the tyrosine kinase inhibitors gefitinib and imatinib. </p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Third Featurette -->
+      <div class="featurette" id="contact">
+          <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+          <h2 class="featurette-heading">The Future 
+              <span class="text-muted">Outlook</span>
+          </h2>
+          <p class="lead">Our mechanism to modulate mammalian gene expression can have a variety of applications, extending throughout as well beyond healthcare. The engineered bacteria would have a significant application to human health particularly in conditions characterized by aberrant gene expression, such as with oncogenes in cancer, cytokines in inflammation, and many others. For cancer applications, the engineered bacteria can be taken as an oral probiotic, which will then selectively localize in tumor cells to prove gene therapy.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+  </div>
+
+</body>
+
+
+</html>
+
+{{ColumbiaNYC_footer}}
